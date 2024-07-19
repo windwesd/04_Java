@@ -188,6 +188,9 @@ public class ArrayPractice {
 			System.out.print(arr[i]);
 			
 		}
-		
 	}
+	
+	
+
+
 	}
