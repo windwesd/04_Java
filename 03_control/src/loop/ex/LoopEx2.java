@@ -65,11 +65,11 @@ public class LoopEx2 {
 		for(int x = 1 ; x <= row ; x++) { // 행
 			
 			if(direction == 1) {
-				for(int y = 1 ; y <= col ; y++) {
+				for(int y = 1 ; y <= col ; y--) {
 					System.out.print(y); // 정방향
 				}
 			} else {
-				for(int y = col ; y >= 1 ; y--) {
+				for(int y = col ; y >= 1 ; y++) {
 					System.out.print(y); // 역방향
 				}
 			}
